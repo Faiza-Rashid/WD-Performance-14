@@ -1,0 +1,90 @@
+a:link{
+     color: chartreuse;
+}
+a:visited{
+    color: darkorchid;
+}
+a:hover{
+    background-color: aquamarine;
+    color: coral;
+}
+a:active{
+    background-color: hotpink;
+}
+#one{
+    text-decoration:inherit;
+    background: lightgreen;
+    opacity: 0.5;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    border: 4px solid black;
+}
+#one:link{
+     color: midnightblue;
+}
+#one:visited{
+    color: darkorchid;
+}
+#one:hover{
+    opacity: 1;
+    background-color: aquamarine;
+    color: mediumpurple;
+}
+#one:active{
+    background-color: hotpink;
+}
+.list{
+    list-style-type: decimal-leading-zero;
+}
+.list1{
+    list-style-type:upper-roman;
+}
+.list2{
+    list-style-type:lower-greek;
+}
+.list3{
+    list-style-type:upper-alpha;
+}
+.list4{
+    color:darkgreen;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.list5{
+    list-style-image: url(image/mark.png);
+  margin:0;
+padding: 0;    
+ list-style-position: inside;   
+    
+}
+.list6{
+ list-style-type: lower-greek;
+    list-style-position: outside;
+    background: pink;
+}
+#list6{
+    background-color: darkcyan;
+    padding: 5px;
+    margin: 2px;
+}
+table{
+    width: 50%;
+    background-color: blueviolet;
+    opacity: 0.6;
+}
+table,th,td{
+    border: 2px solid black;
+    opacity:1;
+    border-collapse: collapse;
+    
+}
+th{
+    height: 50px;
+
+}
+td{
+    height: 50px;
+    text-align: center;
+}
